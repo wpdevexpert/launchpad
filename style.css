@@ -8,6 +8,7 @@
 body {
     font-family: "Inter", sans-serif;
     color: #212529;
+    background-color: #F5F8FF;
 }
 
 ul {
@@ -21,15 +22,15 @@ ul {
     padding: 20px;
 }
 
-.align-center {
+.text-center {
     text-align: center;
 }
 
-.align-left {
+.text-left {
     text-align: left;
 }
 
-.align-right {
+.text-right {
     text-align: right;
 }
 
@@ -61,11 +62,25 @@ img {
     color: white;
     border: 1px solid #4e47ff;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #ffffff;
+    color: #4e47ff;
 }
 
 .left-half,
 .right-half {
     width: 50%;
+}
+
+.section-heading {
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #252432;
 }
 
 /*Header*/
@@ -122,4 +137,25 @@ header {
 .about-section .right-half img {
     width: 403px;
     border-radius: 30px;
+}
+
+/* Achievements Section */
+.achievements-section {
+    padding: 40px 80px;
+    background-color: #4d47ff2d;
+    border-radius: 24px;
+}
+
+.achievement-item h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #4e47ff;
+}
+
+.achievement-item p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000083;
 }
