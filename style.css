@@ -100,7 +100,7 @@ img {
 
 /*Header*/
 header {
-    background: url("/images/Hero-bg.png");
+    background: url("images/Hero-bg.png");
     background-size: cover;
     background-position: center;
 }
