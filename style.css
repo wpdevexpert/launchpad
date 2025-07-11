@@ -75,6 +75,10 @@ img {
     width: 50%;
 }
 
+.bg-white {
+    background-color: #ffffff;
+}
+
 .section-heading {
     font-family: "Raleway", sans-serif;
     font-size: 38px;
@@ -201,4 +205,25 @@ header {
 
 .review-item .author img {
     border-radius: 100%;
+}
+
+/* call to action section */
+.call-to-action .container {
+    padding: 70px 0;
+    border-radius: 14px;
+}
+
+.cta-section {
+    margin-bottom: 20px;
+}
+
+.cta-section h3,
+.cta-section p,
+.cta-section button {
+    margin-bottom: 15px;
+}
+
+.call-to-action img {
+    width: 840px;
+    border-radius: 48px;
 }
