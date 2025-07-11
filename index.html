@@ -35,12 +35,12 @@
     <main>
         <section class="about-section">
             <div class="container d-flex justify-between align-center">
-                <div class="left-half align-left">
+                <div class="half-width align-left">
                     <h3>See It in Action</h3>
                     <p>Explore the live preview and imagine your brand in this bold new look.</p>
                     <button class="cta-button">Launch Live Preview</button>
                 </div>
-                <div class="right-half align-right">
+                <div class="half-width align-right">
                     <img src="/images/wc-mini.png" alt="Webflow Big Image">
                 </div>
             </div>
@@ -127,6 +127,28 @@
                     <button class="cta-button">Ger Started Free</button>
                 </div>
                 <img src="/images/wc-big.png" alt="">
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container d-flex justify-between align-center" id="contact">
+                <div class="half-width">
+                    <h2>Let’s Get in Touch</h2>
+                </div>
+                <div class="half-width">
+                    <form action="#" method="post" class="contact-form">
+                        <label for="name">Name
+                            <input type="text" id="name" name="name" placeholder="full name" required>
+                        </label>
+                        <label for="email">Email
+                            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                        </label>
+                        <label for="message">Message
+                            <textarea id="message" name="message" rows="3" placeholder="write your message...."
+                                required></textarea>
+                        </label>
+                        <button type="submit" class="cta-button full-width">Get in Touch</button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
